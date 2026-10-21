@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dinesh Chandra Gaddam | Machine Learning Engineer</title>
+<meta name="description" content="Machine Learning Engineer building LLM-powered systems, agentic AI workflows, RAG and knowledge graphs.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef2f6; --surface:#ffffff; --ink:#14213d; --muted:#4d5b73;
+  --accent:#2f5bea; --accent-ink:#ffffff; --warm:#c9821a; --line:#cfd8e3;
+  --head:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1626; --surface:#17213a; --ink:#e8edf6; --muted:#a3b0c7;
+    --accent:#7c9bff; --accent-ink:#0f1626; --warm:#e9a23b; --line:#2b3857;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 var(--body)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--warm);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:1.5rem;align-items:center;height:3.5rem}
+nav b{font-family:var(--head);margin-right:auto}
+nav a{color:var(--ink);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:2rem;align-items:center;padding:4.5rem 0 3.5rem}
+h1{font:700 clamp(2.4rem,6vw,4.2rem)/1.05 var(--head);margin:0 0 1.2rem;letter-spacing:-.02em}
+h2{font:700 1.9rem/1.2 var(--head);margin:0 0 1.5rem;letter-spacing:-.01em}
+h3{font:500 1.2rem/1.3 var(--head);margin:0}
+.lead{font-size:1.2rem;max-width:34rem;color:var(--muted);margin:0 0 1.8rem}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem}
+.btn{display:inline-block;padding:.7rem 1.3rem;border-radius:.4rem;text-decoration:none;font-weight:500;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:var(--accent-ink)}
+.btn.alt{color:var(--accent)}
+.graph{width:100%;height:auto}
+.graph line{stroke:var(--line);stroke-width:2}
+.graph .hot{stroke:var(--accent);stroke-width:2.5}
+.graph circle{fill:var(--surface);stroke:var(--ink);stroke-width:2}
+.graph .core{fill:var(--accent);stroke:var(--accent)}
+.graph .warm{fill:var(--warm);stroke:var(--warm)}
+.graph text{fill:var(--muted);font:500 12px var(--body)}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+.job{display:grid;grid-template-columns:11rem 1fr;gap:1.5rem;padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.when{color:var(--muted);font-size:.92rem}
+.job h3 span{font-weight:400;color:var(--muted)}
+ul{margin:.6rem 0 0;padding-left:1.2rem}
+li{margin:.35rem 0;max-width:46rem}
+.proj{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1.2rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:.5rem;padding:1.4rem}
+.card p{margin:.6rem 0 1rem;font-size:.97rem}
+.card.lead-card{grid-column:1/-1;border-left:6px solid var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;padding:0;list-style:none;margin:0}
+.tags li{margin:0;font-size:.8rem;padding:.15rem .6rem;border:1px solid var(--line);border-radius:2rem;color:var(--muted)}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.5rem}
+.skills h3{font-size:1rem;margin-bottom:.6rem}
+.edu p{margin:.2rem 0}
+footer{padding:3rem 0;border-top:1px solid var(--line);color:var(--muted)}
+@media (max-width:48rem){
+  .hero{grid-template-columns:1fr;padding-top:2.5rem}
+  .job{grid-template-columns:1fr;gap:.2rem}
+  nav a.hide{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <b>Dinesh Chandra Gaddam</b>
+  <a href="#experience">Experience</a><a href="#projects">Projects</a><a class="hide" href="#skills">Skills</a><a href="#contact">Contact</a>
+</div></nav>
+
+<main class="wrap">
+<header class="hero">
+  <div>
+    <h1>I build LLM systems that work on real data.</h1>
+    <p class="lead">Machine Learning Engineer focused on retrieval-augmented generation, agentic workflows, knowledge graphs and end-to-end ML pipelines. M.S. Data Science, The George Washington University.</p>
+    <div class="btns">
+      <a class="btn main" href="Resume.pdf">Download resume</a>
+      <a class="btn alt" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <svg class="graph" viewBox="0 0 360 300" role="img" aria-label="Diagram of a knowledge graph linking drugs, genes and diseases">
+    <line x1="180" y1="150" x2="70" y2="60"/><line x1="180" y1="150" x2="290" y2="50" class="hot"/>
+    <line x1="180" y1="150" x2="60" y2="210"/><line x1="180" y1="150" x2="300" y2="220" class="hot"/>
+    <line x1="70" y1="60" x2="60" y2="210"/><line x1="290" y1="50" x2="300" y2="220"/>
+    <line x1="180" y1="150" x2="190" y2="270"/><line x1="60" y1="210" x2="190" y2="270"/>
+    <circle class="core" cx="180" cy="150" r="22"/>
+    <circle cx="70" cy="60" r="14"/><circle class="warm" cx="290" cy="50" r="14"/>
+    <circle cx="60" cy="210" r="14"/><circle class="warm" cx="300" cy="220" r="14"/>
+    <circle cx="190" cy="270" r="11"/>
+    <text x="150" y="190">drug</text><text x="40" y="38">gene</text>
+    <text x="260" y="28">disease</text><text x="110" y="292">link prediction</text>
+  </svg>
+</header>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="job"><div class="when">Aug – Oct 2026</div><div>
+    <h3>Associate <span>Premier Life Sciences LLC (contract)</span></h3>
+    <ul>
+      <li>Analyzed 13,000+ units produced monthly with Python and pandas, tracking a 0.5% average fault rate and recurring defects.</li>
+      <li>Investigated a 5% parts scrap rate using time-series, seasonality and hypothesis testing, and built Power BI reports for stakeholders.</li>
+    </ul></div></div>
+  <div class="job"><div class="when">May – Jul 2026</div><div>
+    <h3>Research Data Analyst <span>Betterway</span></h3>
+    <ul>
+      <li>Analyzed U.S. healthcare expenditure from 2010 to 2024, quantifying growth, CAGR and inflation-adjusted trends across Medicare and Medicaid.</li>
+      <li>Reviewed GAO reports on program integrity, covering over $100B in estimated improper payments in FY2023.</li>
+    </ul></div></div>
+  <div class="job"><div class="when">Sep – Dec 2025</div><div>
+    <h3>Teaching Assistant <span>GWU Data Science Department</span></h3>
+    <ul>
+      <li>Guided about 20 students on ML system design, evaluation pipelines and error analysis.</li>
+      <li>Supported debugging of end-to-end ML workflows, including fine-tuning and deployment.</li>
+    </ul></div></div>
+  <div class="job"><div class="when">Jun – Dec 2025</div><div>
+    <h3>AI/ML Research Assistant <span>GWU Data Science Department</span></h3>
+    <ul>
+      <li>Built a LLaMA-3 pipeline that extracts and structures FDA drug-label data for 10,000 drugs.</li>
+      <li>Engineered a knowledge graph with NetworkX and integrated PrimeKG and Hetionet, reaching AUC 0.894 and F1 0.81 on link prediction over 10M+ edges.</li>
+    </ul></div></div>
+  <div class="job"><div class="when">Jun 2024 – Mar 2025</div><div>
+    <h3>Research Data Scientist <span>Bharat Smart Services Company</span></h3>
+    <ul>
+      <li>Built an LSTM appliance classifier for energy disaggregation, improving accuracy from 86% to 92%.</li>
+      <li>Designed ETL pipelines for energy data from 1,000+ households.</li>
+      <li>Trained a CNN appliance image model on AWS SageMaker (98% F1), containerized it with Docker and deployed it with GitHub Actions CI/CD.</li>
+    </ul></div></div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="proj">
+    <article class="card lead-card">
+      <h3>Health-Aware School Meal Recommendation</h3>
+      <p>A contextual bandit system using data from 170 Fairfax County schools. It balances student preferences with nutrition requirements and cut regret by 76% against baselines. Under review at EAAI.</p>
+      <ul class="tags"><li>Reinforcement learning</li><li>Contextual bandits</li><li>Python</li></ul>
+    </article>
+    <article class="card">
+      <h3>RAG-Based Agentic AI System</h3>
+      <p>Multi-step reasoning over unstructured data with LangChain, FAISS retrieval, dynamic query routing and ReAct-style orchestration.</p>
+      <ul class="tags"><li>LangChain</li><li>FAISS</li><li>RAG</li></ul>
+    </article>
+    <article class="card">
+      <h3>Personalized AI Chatbot</h3>
+      <p>A retrieval-augmented chatbot that answers questions over private data using LangChain, OpenAI and a vector database.</p>
+      <ul class="tags"><li>OpenAI</li><li>Vector DB</li><li>NLP</li></ul>
+    </article>
+    <article class="card">
+      <h3>Resume Builder App</h3>
+      <p>An agentic app that tailors resumes to a job description and emails the finished file. Built with LLMs, regex and Streamlit.</p>
+      <ul class="tags"><li>Agentic AI</li><li>Streamlit</li><li>LLMs</li></ul>
+    </article>
+    <article class="card">
+      <h3>Job Alert Assistant</h3>
+      <p>Scrapes filtered LinkedIn searches, detects new postings and emails only unseen jobs, even when URLs carry tracking parameters.</p>
+      <ul class="tags"><li>Python</li><li>BeautifulSoup</li><li>pandas</li></ul>
+    </article>
+    <article class="card">
+      <h3>Temperature Forecasting</h3>
+      <p>SARIMA and Box-Jenkins models on the Jena Climate dataset. Published at the FTC Conference.</p>
+      <ul class="tags"><li>Time series</li><li>ARIMA</li><li>SARIMA</li></ul>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Agentic AI and LLMs</h3><p>Agentic workflows, RAG, tool-augmented LLMs, ReAct reasoning, LLM orchestration, context management</p></div>
+    <div><h3>ML engineering</h3><p>End-to-end ML systems, FastAPI, ETL, batch processing, evaluation pipelines, model monitoring</p></div>
+    <div><h3>Programming and data</h3><p>Python, PyTorch, TensorFlow, scikit-learn, pandas, NumPy, SQL, PySpark</p></div>
+    <div><h3>Cloud and tools</h3><p>AWS (S3, SageMaker), Docker, CI/CD, Tableau, Power BI, Looker</p></div>
+  </div>
+</section>
+
+<section class="edu" id="education">
+  <h2>Education</h2>
+  <p><b>M.S. Data Science</b>, The George Washington University, 2024 – 2025</p>
+  <p><b>B.Tech, Electronics and Communication Engineering</b>, NIT Srinagar, 2019 – 2023</p>
+</section>
+</main>
+
+<footer id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:dineshchandragaddam2002@gmail.com">dineshchandragaddam2002@gmail.com</a></p>
+  <p><a href="https://github.com/YOUR-GITHUB-USERNAME">GitHub</a> · <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">LinkedIn</a></p>
+</div></footer>
+</body>
+</html>
